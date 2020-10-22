@@ -5,3 +5,6 @@ sklearn
 nltk
 matplotlib
 seaborn
+wordcloud
+re
+string
