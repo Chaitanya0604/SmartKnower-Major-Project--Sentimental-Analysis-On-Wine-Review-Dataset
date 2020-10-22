@@ -5,7 +5,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-df = pd.read_csv('/content/drive/My Drive/SmartknowerML/Machine Learning/wine first 150k.csv') 
+df = pd.read_csv('Wine Review Dataset.csv') 
 df.rename(columns={'Unnamed: 0':'UniqueID'},inplace=True)
 df.dropna(axis=0, inplace=True)
 df.drop(['UniqueID', 'country',  'designation', 
